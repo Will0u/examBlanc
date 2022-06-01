@@ -1,0 +1,30 @@
+
+<app-navbar></app-navbar>
+
+<ng-container *ngIf="playersArray" >
+    <a [routerLink]="['ajtJoueur']" class="addBtn" *ngIf="playersArray.length < limit" >+</a>
+</ng-container>
+
+
+<div id="filtre" >
+    <ul >
+        <li><button>Tout afficher</button></li>
+        <li *ngFor="let poste of postesArray"
+        >   <button (click)="test(poste)" >{{poste}} </button>
+        </li>
+    </ul>
+</div>
+
+<div id="playerArea">
+    <div class="playerBox" *ngFor="let player of playersArray" > 
+        <img src="{{ player.image }}" alt="">
+        <div class="txtContainer" >
+            <span>{{ player.nom }} {{ player.prenom }}</span>
+            <span>{{ player.poste }}</span>
+        </div>
+        <div class="btnContainer">
+            <button (click)="delete(player)" >Supprimer</button>
+            <a [routerLink]="[player.id]" class="button">Voir détail</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,110 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "nom": "Kingsley",
+      "prenom": "Coman",
+      "poste": "Attaquant",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/c67627c13590edc7320a4acfdf37dbff.png?twic=v1/focus=765x411/cover=364x520",
+      "poids": 71,
+      "taille": 181,
+      "bio": ""
+    },
+    {
+      "id": 3,
+      "nom": "Lloris",
+      "prenom": "Hugo",
+      "poste": "Gardien",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/85524ec3c4ea173fef4d0f1cdd4b7884.png?twic=v1/focus=754x447/cover=364x520",
+      "poids": 82,
+      "taille": 188,
+      "bio": "Passé par les sélections de jeunes, Hugo Lloris fait figure de monument en équipe de France. Le gardien formé à l'OGC Nice a débuté chez les Bleus sous l'ère Raymond Domenech, a été nommé capitaine par Laurent Blanc et est devenu champion du monde avec Didier Deschamps."
+    },
+    {
+      "id": 4,
+      "nom": "Clauss",
+      "prenom": "Jonathan",
+      "poste": "Défenseur",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/f274fe423a2d6cc6185bd16a627b6d1a.png?twic=v1/focus=74x42/cover=364x520",
+      "poids": 67,
+      "taille": 178,
+      "bio": ""
+    },
+    {
+      "id": 5,
+      "nom": "Hernandes",
+      "prenom": "Lucas",
+      "poste": "Défenseur",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/ba33aed5bb799885a50723a3039ae9b3.png?twic=v1/focus=848x382/cover=364x520",
+      "poids": 75,
+      "taille": 180,
+      "bio": ""
+    },
+    {
+      "id": 6,
+      "nom": "Pavard",
+      "prenom": "Benjamin",
+      "poste": "Défenseur",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/96c6a225e130061181000c4fff5b2ee0.png?twic=v1/focus=622x382/cover=364x520",
+      "poids": 76,
+      "taille": 186,
+      "bio": ""
+    },
+    {
+      "id": 7,
+      "nom": "Antoine",
+      "prenom": "Griezmann",
+      "poste": "Attaquant",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/f7f8150e1ea239a8d0e8bf9ab258aebe.png?twic=v1/focus=831x331/cover=364x520",
+      "poids": 73,
+      "taille": 173,
+      "bio": "Depuis le 15 juillet 2018, le nom d'Antoine Griezmann est à jamais gravé dans la légende du football international, dans le chapitre très fermé réservé aux champions du monde. Il a aussi pris une place de tout premier choix dans l'histoire du football tricolore qu'il a marquée de son empreinte en l'espace de quelques saisons seulement. Convié chez les Bleus par Didier Deschamps en mars 2014 pour un match amical contre les Pays-Bas, \"Grizi\" en a profité pour signer un long bail à succès. Son talent, ses qualités de buteur et de passeur, son efficacité, son influence, ont fait de lui un leader incontournable de l'Equipe de France."
+    },
+    {
+      "id": 8,
+      "nom": "Mbappé",
+      "prenom": "Kylian",
+      "poste": "Attaquant",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/7c3c3f8568722863b1285cc19459d9c6.png?twic=v1/focus=783x384/cover=364x520",
+      "poids": 75,
+      "taille": 178,
+      "bio": ""
+    },
+    {
+      "nom": "Benzema",
+      "prenom": "Karim",
+      "poste": "Attaquant",
+      "taille": 185,
+      "poids": 81,
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/a3405b4d54a65136ebb1874341e383b2.png?twic=v1/focus=778x336/cover=364x520",
+      "id": 9
+    },
+    {
+      "taille": 168,
+      "poids": 70,
+      "prenom": "Kanté",
+      "nom": "N'golo",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/7230c2ec0c58bc270d55ee47fd33a7a8.png?twic=v1/focus=818x252/cover=364x520",
+      "poste": "Milieu",
+      "id": 10
+    },
+    {
+      "nom": "Rabiot",
+      "prenom": "Adrien",
+      "poste": "Milieu",
+      "taille": 188,
+      "poids": 72,
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/dc361318577f7c879108100371c9e1d2.png?twic=v1/focus=715x363/cover=280x400",
+      "id": 13
+    },
+    {
+      "poids": 75,
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/4a498de0be6febd713075057ef1dd389.png?twic=v1/focus=692x495/cover=280x400",
+      "nom": "Koundé",
+      "prenom": "Jules",
+      "taille": 180,
+      "poste": "Défenseur",
+      "id": 14
+    }
+  ]
+}

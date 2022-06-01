@@ -1,0 +1,26 @@
+
+<app-navbar></app-navbar>
+<div class="header" >
+    <span class="nom">{{displayPlayer.nom}}</span>
+    <span class="prenom">{{displayPlayer.prenom}}</span>
+</div>
+
+<div class="presentation">
+    <a [routerLink]="['..']" class="button" >Retour</a>
+    <img src="{{ displayPlayer.image }}" alt="Photo de {{ displayPlayer.nom }} {{ displayPlayer.prenom }}">
+    <div class="infoContainer" >
+        <h1>Informations</h1>
+        <span>{{ displayPlayer.nom }} {{ displayPlayer.prenom }}</span>
+        <span>Poste : {{ displayPlayer.poste }}</span>
+        <span>Poids : {{ displayPlayer.poids }}kg</span>
+        <span>Taille : {{ displayPlayer.taille }}cm</span>
+    </div>
+
+    <div class="bioContainer">
+        <h1>biographie</h1>
+        <p class="bio" *ngIf="!displayPlayer.bio">Le joueur n'a pas encore fait de biographie.</p>
+        <p class="bio" *ngIf="displayPlayer.bio">{{displayPlayer.bio}}</p>
+    </div>
+    
+</div>
+

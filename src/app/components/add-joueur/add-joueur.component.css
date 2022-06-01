@@ -1,0 +1,151 @@
+
+.button{
+    border: 0;
+    background-color: darkblue;
+    padding: .4rem;
+    border-radius: 7px;
+    color: white;
+    transition: transform .3s, background-color .3s;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+.button:hover{
+    background-color: blue;
+    transform: scale(1.05);
+    transition: transform .3s, background-color .3s;
+}
+.button:active{
+    transform: scale(0.95);
+    transition: transform .3s, background-color .3s;
+}
+
+form {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.label{
+    position: absolute;
+    left: 10px;
+    top: -7px;
+    color: darkblue;
+    font-size: .9rem;
+}
+.labelError{
+    position: absolute;
+    left: 10px;
+    top: -7px;
+    color: red;
+    font-size: .9rem;
+}
+
+.formGrp{
+    margin-bottom: 2rem;
+    position: relative;
+    width: 275px;
+}
+.formGrp:last-child{
+    display: flex;
+    justify-content: space-evenly;
+}
+.valueInput{
+    width: 275px;
+    height: 50px;
+    text-align: center;
+    border: 0;
+    padding-top: 1.3rem;
+    border-bottom: 2px solid darkblue;
+    transition: border-bottom .3s;
+    background-color: rgb(0, 0, 0,0.05);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.valueInput:focus{
+    outline: none;
+    border-bottom: 7px solid darkblue;
+    transition: border-bottom .3s;
+}
+.valueInput:hover{
+    border-bottom: 7px solid darkblue;
+    transition: border-bottom .3s;
+}
+
+.valueInputError{
+    width: 275px;
+    height: 50px;
+    text-align: center;
+    border: 0;
+    padding-top: 1.3rem;
+    border-bottom: 2px solid red;
+    transition: border-bottom .3s;
+    background-color: rgb(0, 0, 0,0.05);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.valueInputError:focus{
+    outline: none;
+    border-bottom: 7px solid red;
+    transition: border-bottom .3s;
+}
+.valueInputError:hover{
+    border-bottom: 7px solid red;
+    transition: border-bottom .3s;
+}
+
+select{
+    border: 0;
+    background-color: darkblue;
+    padding: .4rem;
+    border-radius: 7px;
+    color: white;
+    transition: transform .3s, background-color .3s;
+}
+select:hover{
+    background-color: blue;
+    transform: scale(1.05);
+    transition: transform .3s, background-color .3s;
+}
+select:active{
+    transform: scale(0.95);
+    transition: transform .3s, background-color .3s;
+}
+
+.selectError{
+    border: 0;
+    background-color: red;
+    padding: .4rem;
+    border-radius: 7px;
+    color: white;
+    transition: transform .3s, background-color .3s;
+}
+.selectError:hover{
+    background-color: red;
+    transform: scale(1.05);
+    transition: transform .3s, background-color .3s;
+}
+.selectError:active{
+    transform: scale(0.95);
+    transition: transform .3s, background-color .3s;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    border: 0;
+    background-color: darkblue;
+    padding: .4rem;
+    border-radius: 7px;
+    color: white;
+    transition: transform .3s, background-color .3s;
+}
+input[type=submit]:hover{
+    background-color: blue;
+    transform: scale(1.05);
+    transition: transform .3s, background-color .3s;
+}
+input[type=submit]:active{
+    transform: scale(0.95);
+    transition: transform .3s, background-color .3s;
+}

@@ -1,0 +1,44 @@
+
+<app-navbar></app-navbar>
+
+<form #addForm="ngForm" (ngSubmit)="submit()" >
+    <a [routerLink]="['..']" class="button" >Retour</a>
+    <div class="formGrp">
+        <input class="valueInput" type="text" name="nomF" id="nomF" required [(ngModel)]="newJoueur.nom" #nomF="ngModel">
+        <span class="label" [ngClass]="{'labelError':!nomF}" >Nom du joueur</span>
+    </div>
+
+    <div class="formGrp">
+        <input class="valueInput" type="text" name="prenom" id="prenom" required [(ngModel)]="newJoueur.prenom" #prenom="ngModel" >
+        <span class="label" [ngClass]="{'labelError':!prenom}" >Prénom du joueur</span>
+    </div>
+
+    <div class="formGrp">
+        <input class="valueInput" type="number" name="taille" id="taille" required [(ngModel)]="newJoueur.taille" #taille="ngModel" min="150" max="200">
+        <span class="label" [ngClass]="{'labelError':!taille}" >Taille du joueur</span>
+    </div>
+
+    <div class="formGrp">
+        <input class="valueInput" type="number" name="poids" id="poids" required [(ngModel)]="newJoueur.poids" #poids="ngModel" min="50" max="100">
+        <span class="label" [ngClass]="{'labelError':!poids}" >Poids du joueur</span>
+    </div>
+
+    <div class="formGrp">
+        <input class="valueInput" type="text" name="img" id="img" required [(ngModel)]="newJoueur.image" #img="ngModel" >
+        <span class="label" [ngClass]="{'labelError':!img}" >Photo du joueur</span>
+    </div>
+
+    <div class="formGrp">
+        <textarea class="valueInput" type="text" name="bio" id="bio"  [(ngModel)]="newJoueur.bio" ></textarea>
+        <span class="label">Biographie du joueur</span>
+    </div>
+
+    <div class="formGrp">
+        <select name="poste" required [(ngModel)]="newJoueur.poste" >
+            <option *ngFor="let poste of poste" value="{{ poste }}" >{{ poste }}</option>
+        </select>
+        <input type="submit" value="Ajouter" [disabled]="!addForm.valid" >
+    </div>
+
+    
+</form>

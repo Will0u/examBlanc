@@ -1,0 +1,67 @@
+
+.header{
+    margin-top: 6.5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn-s-www.ledauphine.com/images/992C9C26-F60B-4996-B7BB-980D5A3DB173/NW_raw/pour-la-fff-et-l-equipe-de-france-le-gros-des-recettes-provient-du-contrat-avec-l-equipementier-nike-qui-rapporte-plus-de-50-millions-d-euros-par-an-jusqu-en-2026-a-ce-prix-la-sur-la-photo-officielle-on-peut-se-permettre-de-mettre-les-joueurs-sous-contrat-avec-la-marque-au-premier-rang-les-seules-exceptions-etant-griezmann-(puma)-et-kante-(adidas)-photo-afp-1528034621.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    -webkit-box-shadow: 0px 7px 7px -1px rgba(0,0,0,0.12); 
+    box-shadow: 0px 7px 7px -1px rgba(0,0,0,0.12);
+}
+
+img{
+    margin-top: 2rem;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: .5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 1px solid darkblue;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: .2rem;
+}
+
+.button{
+    border: 0;
+    background-color: darkblue;
+    padding: .4rem;
+    border-radius: 7px;
+    color: white;
+    transition: transform .3s, background-color .3s;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: blue;
+    transform: scale(1.05);
+    transition: transform .3s, background-color .3s;
+}
+.button:active{
+    transform: scale(0.95);
+    transition: transform .3s, background-color .3s;
+}
